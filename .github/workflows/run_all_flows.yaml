@@ -42,5 +42,5 @@ jobs:
       - name: Run all flows
         id: run
         run: |
-          export PYTHONPATH="${PYTHONPATH}:/home/runner/work/prefect-getting-started/prefect-getting-started/"
+          export PYTHONPATH="${PYTHONPATH}:/home/runner/work/prefect-workflow-startup/prefect-workflow-startup/"
           python ${{matrix.flows}}

@@ -26,5 +26,5 @@ jobs:
 
       - name: hello_subflow
         run: |
-          export PYTHONPATH="${PYTHONPATH}:/home/runner/work/prefect-getting-started/prefect-getting-started/"
+          export PYTHONPATH="${PYTHONPATH}:/home/runner/work/prefect-workflow-startup/prefect-workflow-startup/"
           python flows/hello_subflow.py
