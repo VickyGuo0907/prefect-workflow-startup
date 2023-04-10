@@ -1,5 +1,5 @@
 name: parametrized
-on:
+#on:
 #  schedule:
 #    - cron: '42 * * * *'
 
