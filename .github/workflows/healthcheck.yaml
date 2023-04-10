@@ -1,4 +1,13 @@
 name: healthcheck
+on:
+  workflow_dispatch:
+    inputs:
+      prefect-version:
+        description: Prefect version for flows
+        required: true
+        default: '2.*'
+        type: string
+
 #on:
 #  schedule:
 #    - cron: '42 * * * *'
